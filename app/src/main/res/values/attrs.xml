@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <declare-styleable name="CustomSlider" >
+       <attr name="default_mode" format="reference" />
+       <attr name="transition_mode" format="reference" />
+       <attr name="actived_mode" format="reference" />
+   </declare-styleable>
+
+</resources>

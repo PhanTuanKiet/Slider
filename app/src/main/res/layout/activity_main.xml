@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.ptkiet.slider.CustomSlider
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/custom_sld"
+        app:default_mode="@drawable/default_mode"
+        app:transition_mode="@drawable/transition_mode"
+        app:actived_mode="@drawable/active_mode"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
